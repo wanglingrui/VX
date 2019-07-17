@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/ddemo/ddemo",
+    "pages/index/index",
+    "pages/map/map",
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d26fd8",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "王凌锐个人介绍",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#f00",
+    "borderStyle": "white",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png"
+      },
+      {
+        "text": "关于我",
+        "pagePath": "pages/ddemo/ddemo",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png"
+      },
+      {
+        "text": "我的位置",
+        "pagePath": "pages/map/map",
+        "iconPath": "images/ditu.png",
+        "selectedIconPath": "images/ditu1.png"
+      },
+       {
+        "text": "about",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/tuzi.png",
+        "selectedIconPath": "images/tuzi1.png"
+      }
+       
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
