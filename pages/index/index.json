@@ -1,1 +1,8 @@
-{"navigationBarBackgroundColor":"#35495e","navigationBarTextStyle":"white","navigationBarTitleText":"Index Page","backgroundColor":"#000000","backgroundTextStyle":"light","enablePullDownRefresh":true}
+{
+  "navigationBarBackgroundColor": "#9b929e",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "王凌锐个人介绍",
+  "backgroundColor": "#000000",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+  }

@@ -1,12 +1,19 @@
 {
   "pages": [
-    "pages/ddemo/ddemo",
-    "pages/index/index",
     "pages/map/map",
+    "pages/index/index",
+    "pages/ddemo/ddemo",
+  
+    
     "pages/about/about"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
-    "navigationBarBackgroundColor": "#d26fd8",
+    "navigationBarBackgroundColor": "#9b929e",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "王凌锐个人介绍",
     "backgroundColor": "#000000",

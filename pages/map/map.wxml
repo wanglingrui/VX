@@ -1,2 +1,14 @@
 <!--pages/map/map.wxml-->
-<text>pages/map/map.wxml</text>
+<!-- 水滴效果 -->
+<view class="ripple" style="{{rippleStyle}}"></view>
+<view class="container" bindtouchstart="containerTap">
+
+
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: {{view.Height}}px;"></map>
+
+
+
+
+
+</view>
+

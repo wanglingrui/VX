@@ -1,0 +1,24 @@
+<!-- 轮播图 -->
+<view class='swiper'>
+    <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" duration="{{duration}}" interval='{{interval}}' bindchange="bindchange"  circular="{{circular}}" style="height:{{imgheights[current]}}rpx;"
+    easing-function="easeOutCubic"
+    >
+    <block wx:for='{{imgList}}' wx:key="{{index}}">
+      <swiper-item class="item-box">
+      <text class='wenzi'>你好，我叫王凌锐，</text>
+      <text class='wenzi1'>一个普普通通的年轻人</text>
+      <text class='wenzi2'>热爱前端，热爱学习</text>
+      <text class='wenzi4'>希望你遇见我，</text>
+      <text class='wenzi5'>阳光刚好，Bug很少~</text>
+        <image src="{{item}}" data-id='{{index}}' class="slide-image" mode="widthFix" bindload="imageLoad"/>
+      </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+
+
+
+<!-- audio.wxml -->
+<audio class='audio' poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls="true" loop="true"></audio>

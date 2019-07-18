@@ -1,0 +1,58 @@
+.audio{
+  width:100%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin: 30rpx; */
+  margin-right: 40rpx;
+  position: fixed;
+  bottom:-5rpx;
+  right: 15rpx;
+  z-index: 2000;
+
+}
+
+
+.swiper image {
+  width: 100%;
+  height: auto;
+}
+.item-box{
+position: relative
+}
+.wenzi{
+  position: absolute;
+  left: 150rpx;
+  top: 150rpx;
+  z-index: 99999;
+  color: #fff;
+}
+.wenzi1{
+  position: absolute;
+  left: 230rpx;
+  top: 200rpx;
+  z-index: 99999;
+  color: #fff;
+}
+.wenzi2{
+  position: absolute;
+  left: 320rpx;
+  top: 250rpx;
+  z-index: 99999;
+  color: #fff;
+}
+.wenzi4{
+  position: absolute;
+  left: 150rpx;
+  top: 800rpx;
+  z-index: 99999;
+  color: rgb(247, 155, 155);
+}
+.wenzi5{
+  position: absolute;
+  left: 230rpx;
+  top: 850rpx;
+  z-index: 99999;
+  color: rgb(197, 128, 128);
+}

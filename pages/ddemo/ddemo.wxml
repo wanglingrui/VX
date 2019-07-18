@@ -5,7 +5,7 @@
       <image class="one-two {{ one_two }}" src="../../images/2.png"></image>
       <view class="one-three {{ one_three }}">爱好：运动,篮球</view>
       <view class="one-four {{ one_four }}">应聘岗位：前端开发工程师</view>
-      <view class="one-five {{ one_five }}">2019-7-17</view>
+      <view class="one-five {{ one_five }}">个人技能：HTML、CSS、JS</view>
       <!-- <view>{{time}}</view><view>{{time}}</view> -->
     </view>
     <view class="two {{ view[1].in }} {{ view[1].out }}" style="width: 100%; height: 100%">
@@ -23,5 +23,7 @@
     <image class="bottom-three2 {{ bottom_three }}" src="../../images/12.png"></image>
     <image class="bottom-four {{ bottom_four }}" src="../../images/10.png"></image>
     <image class="bottom-four2 {{ bottom_four }}" src="../../images/10.png"></image>
+
+   
   </view>
 </scroll-view>

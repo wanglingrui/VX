@@ -5,22 +5,22 @@ Page({
   data: {
     animationData: {},
     cardInfoList: [{
-      cardUrl: 'http://dev.wemart.cn/console/images/card/card3.png',
+      cardUrl: '../../images/about4.jpg',
       cardInfo: {
-        cardTitle: '你不知道的花事',
-        cardInfoMes: ['一月一送，浪漫节日送浪漫花', '一月两送，有趣节日送奇异花', '一月四送，有你在每天都是最好的节日']
+        cardTitle: '黑暗总会过去',
+        cardInfoMes: ['没有压力的生活就会空虚；', '没有压力的青春就会枯萎；', '没有压力的生命就会黯淡。']
       }
     }, {
-      cardUrl: 'http://dev.wemart.cn/console/images/card/card2.png',
+        cardUrl: '../../images/about2.jpg',
       cardInfo: {
-        cardTitle: '你不知道的花事',
-        cardInfoMes: ['一月一送，浪漫节日送浪漫花', '一月两送，有趣节日送奇异花', '一月四送，有你在每天都是最好的节日']
+        cardTitle: '黎明终会到来。',
+        cardInfoMes: ['立足今日', '展望明天', '每天都是一个新的起点']
       }
     }, {
-      cardUrl: 'http://dev.wemart.cn/console/images/card/card1.png',
+      cardUrl: '../../images/about1.jpg',
       cardInfo: {
-        cardTitle: '你不知道的花事',
-        cardInfoMes: ['一月一送，浪漫节日送浪漫花', '一月两送，有趣节日送奇异花', '一月四送，有你在每天都是最好的节日']
+        cardTitle: '你从不孤单',
+        cardInfoMes: ['随性而行，无需刻意；', '随遇而安，切勿奢望;', '随心而静，不要烦忧。']
       }
     }]
   },
@@ -52,7 +52,7 @@ Page({
     console.log(e);
     app.buyDetail = this.data.cardInfoList[e.target.id];
     wx.navigateTo({
-      url: '../detail/detail'
+      url: '../about/about'
     });
   },
   onLoad: function () {
